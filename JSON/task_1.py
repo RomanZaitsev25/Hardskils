@@ -17,7 +17,6 @@ class File:
         self.file_obj.close()
 
 
-
 if __name__ == '__main__':
     with File('10products.json', 'r') as file:
         products = file.read()
