@@ -28,7 +28,7 @@ if __name__ == '__main__':
                 new_list.append(product)
             i += 1
         print(f'New_list: {new_list}')
-        with open('text.txt', 'w+') as file_2t:
+        with open('text_1.txt', 'w+') as file_2t:
             file_2t.write(json.dumps(new_list))
-    with open('text.txt', 'r') as file_2t:
+    with open('text_1.txt', 'r') as file_2t:
         print(file_2t.read())
