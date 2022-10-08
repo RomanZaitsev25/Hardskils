@@ -1,4 +1,5 @@
-# Дан get запрос, распарсить его и достать строку This is page
+# Дан get запрос, распарсить его и достать строку This is page и записать
+# его в новый текстовый файл.
 
 import requests
 
@@ -18,3 +19,6 @@ else:
     text = text.replace('<h1>', '')
     text = text.replace('</h1>', '')
     print(text)
+
+with open('text_3.txt', 'w') as file:
+    file.write(text)
