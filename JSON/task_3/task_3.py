@@ -1,3 +1,5 @@
+# Дан get запрос, распарсить его и достать строку This is page
+
 import requests
 
 URL = 'https://w3schools.com/python/demopage.htm'
