@@ -1,3 +1,6 @@
+# Спарсить сайт. Вывести отдельно в файл, список фильмов
+
+
 import requests
 from bs4 import BeautifulSoup
 
