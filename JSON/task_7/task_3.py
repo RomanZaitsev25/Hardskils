@@ -19,10 +19,12 @@ def get_data(URL, page_number):
     html_items = soup.find_all('li', class_='result__item')
     new_inf = []
 
+
     for item in html_items:
         html_name = item.find('span', class_="result__name").text
         if item.find('span', class_="g-item-data") is None:
             html_price = ""
+
         else:
             html_price = item.find('span', class_="g-item-data").text
 

@@ -16,7 +16,6 @@ def get_data(URL):
 
     html_text = soup.find_all('span', class_='result__name')
     html_price = soup.find_all('span', class_="g-price g-oldprice result__oldprice")
-
     new_inf = dict(zip(html_text, html_price))
 
     for key, item in new_inf.items():

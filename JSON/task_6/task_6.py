@@ -44,5 +44,3 @@ def new_ads(URL):
 
 
 new_ads('https://www.kufar.by/l')
-
-
